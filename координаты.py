@@ -1,0 +1,11 @@
+x1 = int(input(1))
+y1 = int(input(2))
+z1 = int(input(3))
+x2 = int(input(4))
+y2 = int(input(5))
+z2 = int(input(6))
+vec1 = max(x1,x2) - min(x1,x2)
+vec2 = max(y1,y2) - min(y1,y2)
+vec3 = max(z1,z2) - min(z1,z2)
+vec4= (vec1**2+vec2**2)**0.5
+print((vec4**2+vec3**2)**0.5)
